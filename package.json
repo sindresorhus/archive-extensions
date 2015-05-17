@@ -1,6 +1,6 @@
 {
   "name": "archive-extensions",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "List of archive file extensions",
   "license": "MIT",
   "repository": "sindresorhus/archive-extensions",
