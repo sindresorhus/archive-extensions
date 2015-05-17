@@ -1,0 +1,42 @@
+{
+  "name": "archive-extensions",
+  "version": "0.0.0",
+  "description": "List of archive file extensions",
+  "license": "MIT",
+  "repository": "sindresorhus/archive-extensions",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "main": "archive-extensions.json",
+  "files": [
+    "archive-extensions.json"
+  ],
+  "keywords": [
+    "ext",
+    "extensions",
+    "extension",
+    "file",
+    "json",
+    "list",
+    "array",
+    "archive",
+    "compressed",
+    "compress",
+    "archive",
+    "zip",
+    "tar",
+    "rar",
+    "7z"
+  ],
+  "devDependencies": {
+    "ava": "0.0.4"
+  }
+}
