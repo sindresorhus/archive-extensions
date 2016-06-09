@@ -15,7 +15,7 @@ $ npm install --save archive-extensions
 ## Usage
 
 ```js
-var archiveExtensions = require('archive-extensions');
+const archiveExtensions = require('archive-extensions');
 
 console.log(archiveExtensions);
 //=> ['7z', 'a', ...]
