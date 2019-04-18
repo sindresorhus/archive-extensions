@@ -6,7 +6,7 @@ List of [archive file](http://en.wikipedia.org/wiki/Archive_file) extensions.
 import archiveExtensions = require('archive-extensions');
 
 console.log(archiveExtensions);
-//=> ['7z', 'a', ...]
+//=> ['7z', 'a', …]
 ```
 */
 declare const archiveExtensions: readonly string[];

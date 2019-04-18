@@ -2,13 +2,13 @@
 
 > List of [archive file](http://en.wikipedia.org/wiki/Archive_file) extensions
 
-*The list is just a [JSON file](archive-extensions.json) and can be used wherever.*
+*The list is just a [JSON file](archive-extensions.json) and can be used anywhere.*
 
 
 ## Install
 
 ```
-$ npm install --save archive-extensions
+$ npm install archive-extensions
 ```
 
 
@@ -18,7 +18,7 @@ $ npm install --save archive-extensions
 const archiveExtensions = require('archive-extensions');
 
 console.log(archiveExtensions);
-//=> ['7z', 'a', ...]
+//=> ['7z', 'a', …]
 ```
 
 
