@@ -1,43 +1,46 @@
 {
-  "name": "archive-extensions",
-  "version": "1.1.0",
-  "description": "List of archive file extensions",
-  "license": "MIT",
-  "repository": "sindresorhus/archive-extensions",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "main": "archive-extensions.json",
-  "files": [
-    "archive-extensions.json"
-  ],
-  "keywords": [
-    "ext",
-    "extensions",
-    "extension",
-    "file",
-    "json",
-    "list",
-    "array",
-    "archive",
-    "compressed",
-    "compress",
-    "archive",
-    "zip",
-    "tar",
-    "rar",
-    "7z"
-  ],
-  "devDependencies": {
-    "ava": "*",
-    "xo": "*"
-  }
+	"name": "archive-extensions",
+	"version": "1.1.0",
+	"description": "List of archive file extensions",
+	"license": "MIT",
+	"repository": "sindresorhus/archive-extensions",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "xo && ava && tsd"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts",
+		"archive-extensions.json",
+		"archive-extensions.json.d.ts"
+	],
+	"keywords": [
+		"ext",
+		"extensions",
+		"extension",
+		"file",
+		"json",
+		"list",
+		"array",
+		"archive",
+		"compressed",
+		"compress",
+		"archive",
+		"zip",
+		"tar",
+		"rar",
+		"7z"
+	],
+	"devDependencies": {
+		"ava": "^1.4.1",
+		"tsd": "^0.7.2",
+		"xo": "^0.24.0"
+	}
 }

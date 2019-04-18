@@ -1,7 +1,7 @@
 import test from 'ava';
-import m from '.';
+import archiveExtensions from '.';
 
-test(t => {
-	t.true(Array.isArray(m));
-	t.true(m.length > 0);
+test('main', t => {
+	t.true(Array.isArray(archiveExtensions));
+	t.true(archiveExtensions.length > 0);
 });
