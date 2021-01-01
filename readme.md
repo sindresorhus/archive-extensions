@@ -1,4 +1,4 @@
-# archive-extensions [![Build Status](https://travis-ci.org/sindresorhus/archive-extensions.svg?branch=master)](https://travis-ci.org/sindresorhus/archive-extensions)
+# archive-extensions
 
 > List of [archive file](http://en.wikipedia.org/wiki/Archive_file) extensions
 
