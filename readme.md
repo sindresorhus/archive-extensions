@@ -4,29 +4,21 @@
 
 *The list is just a [JSON file](archive-extensions.json) and can be used anywhere.*
 
-
 ## Install
 
+```sh
+npm install archive-extensions
 ```
-$ npm install archive-extensions
-```
-
 
 ## Usage
 
 ```js
-const archiveExtensions = require('archive-extensions');
+import archiveExtensions from 'archive-extensions';
 
 console.log(archiveExtensions);
 //=> ['7z', 'a', …]
 ```
 
-
 ## Related
 
-- [is-archive](https://github.com/sindresorhus/is-archive) - Check if a filepath is an archive file
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)
+- [is-archive](https://github.com/sindresorhus/is-archive) - Check if a file path is an archive file

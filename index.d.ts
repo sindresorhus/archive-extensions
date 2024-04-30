@@ -3,7 +3,7 @@ List of [archive file](http://en.wikipedia.org/wiki/Archive_file) extensions.
 
 @example
 ```
-import archiveExtensions = require('archive-extensions');
+import archiveExtensions from 'archive-extensions';
 
 console.log(archiveExtensions);
 //=> ['7z', 'a', …]
@@ -11,4 +11,4 @@ console.log(archiveExtensions);
 */
 declare const archiveExtensions: readonly string[];
 
-export = archiveExtensions;
+export default archiveExtensions;

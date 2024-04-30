@@ -1,6 +1,4 @@
 import {expectType} from 'tsd';
-import archiveExtensions = require('.');
-import archiveExtensionsJson = require('./archive-extensions.json');
+import archiveExtensions from './index.js';
 
 expectType<readonly string[]>(archiveExtensions);
-expectType<readonly string[]>(archiveExtensionsJson);

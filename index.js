@@ -1,1 +1,3 @@
-module.exports = require('./archive-extensions.json');
+import archiveExtensions from './archive-extensions.json' with {type: 'json'};
+
+export default archiveExtensions;
